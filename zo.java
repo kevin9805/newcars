@@ -10,8 +10,10 @@ public class zo{
 		System.out.println("Zignos del zodiaco ");
 		System.out.println("Ingresa tu dia de nacimiento ");
 		d = in.nextDouble();
+		in.nextLine();
 		System.out.println("Ingresa tu mes de nacimiento ");
 		m = in.nextLine();
+		
 		
 		if ((d>=22 && m== "marzo") || (d<=21 && m == "abril")) {
 			System.out.println(" Aries");
@@ -68,7 +70,8 @@ public class zo{
 				System.out.println(nombre);
 			System.out.println(" Las mentiras mas grandes son: Nunca y Siempre.");
 		}
-		if ((d>=22 && m=="febrero") || (d<=21 && m=="marzo")) {
+		if ((d>=22 && m=="febrero") || (d<=21 && m== "marzo"))
+			{
 			System.out.println(" Piscis");
 				System.out.println(nombre);
 			System.out.println(" El pasado es experiencia, que el presente aprovecha y el futuro perfecciona.");
